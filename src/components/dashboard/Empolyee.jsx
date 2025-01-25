@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../other/Header'
 import TaskNo from '../other/TaskNo'
-import Tasklist from '../tasklist/TaskList'
+import TaskList from '../tasklist/TaskList'
 
 const Empolyee = (props) => {
   
