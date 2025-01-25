@@ -8,11 +8,11 @@ import TaskProvider from './context/TaskProvider.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     
-    <Taskprovider>
+    <TaskProvider>
 
       <App />
 
-    </Taskprovider>
+    </TaskProvider>
       
    
   </StrictMode>
