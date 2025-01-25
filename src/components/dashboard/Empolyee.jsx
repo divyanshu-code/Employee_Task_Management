@@ -1,19 +1,18 @@
 import React from 'react'
 import Header from '../other/Header'
-import Taskno from '../other/Taskno'
-import Tasklist from '../tasklist/Tasklist'
+import TaskNo from '../other/TaskNo'
+import Tasklist from '../tasklist/TaskList'
 
 const Empolyee = (props) => {
   
   return (
     <>
-    
      <div className='p-20 '>
      
      
      <Header hero={props.changeuser} data={props.data}/>
-     <Taskno data={props.data}/>
-     <Tasklist data={props.data}/>
+     <TaskNo data={props.data}/>
+     <TaskList data={props.data}/>
      </div>
        
     </>

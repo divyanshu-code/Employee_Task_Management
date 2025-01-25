@@ -1,7 +1,7 @@
 import React from 'react'
-import Createtask from '../other/Createtask'
+import CreateTask from '../other/CreateTask'
 import Header from '../other/Header'
-import Alltask from '../other/Alltask'
+import AllTask from '../other/AllTask'
 
 export const Master = (props) => {
     return (
@@ -10,8 +10,8 @@ export const Master = (props) => {
             <div className='w-full h-screen p-10'>
 
                 <Header hero={props.changeuser} />
-                <Createtask />
-                <Alltask />
+                <CreateTask />
+                <AllTask />
             </div>
         </>
     )

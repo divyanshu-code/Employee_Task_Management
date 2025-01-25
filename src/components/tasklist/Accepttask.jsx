@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Accepttask = ({data}) => {
+const AcceptTask = ({data}) => {
   return (
     <div className='flex-shrink-0 h-72 w-80 bg-orange-400  rounded-xl ml-5 p-2'>
 
@@ -21,4 +21,4 @@ const Accepttask = ({data}) => {
   )
 }
 
-export default Accepttask
+export default AcceptTask

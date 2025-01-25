@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Failedtask = ({data}) => {
+const FailedTask = ({data}) => {
   return (
    
     <div className='flex-shrink-0 h-72 w-80 bg-blue-400  rounded-xl ml-5 p-2'>
@@ -21,4 +21,4 @@ const Failedtask = ({data}) => {
   )
 }
 
-export default Failedtask
+export default FailedTask

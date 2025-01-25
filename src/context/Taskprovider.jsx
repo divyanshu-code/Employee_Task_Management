@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { createContext } from 'react'
-import { getLocalstorage, setLocalstorage } from '../utils/Localstorage';
+import { getLocalstorage, setLocalstorage } from '../utils/LocalStorage';
 
 
 export const proper = createContext();
 
-const Taskprovider = ({children}) => {
+const TaskProvider = ({children}) => {
       
   const [userdata, setuserdata] = useState(null)
   
@@ -27,4 +27,4 @@ const Taskprovider = ({children}) => {
   )
 }
 
-export default Taskprovider
+export default TaskProvider

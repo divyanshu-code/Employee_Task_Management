@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Completetask = ({ data }) => {
+const CompleteTask = ({ data }) => {
   return (
     <div className='flex-shrink-0 h-72 w-80 bg-red-400  rounded-xl ml-5 p-2'>
 
@@ -19,4 +19,4 @@ const Completetask = ({ data }) => {
   )
 }
 
-export default Completetask
+export default CompleteTask

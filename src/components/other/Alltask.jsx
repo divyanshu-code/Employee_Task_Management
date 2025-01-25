@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
-import { proper } from '../../context/Taskprovider'
+import { proper } from '../../context/TaskProvider'
 
-const Alltask = () => {
+const AllTask = () => {
 
   const  [userdata , setuserdata] = useContext(proper)
 
@@ -34,4 +34,4 @@ const Alltask = () => {
   )
 }
 
-export default Alltask
+export default AllTask
