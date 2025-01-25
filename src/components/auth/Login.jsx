@@ -54,7 +54,7 @@ const Login = ({handle}) => {
 
     </div>
           
-            <button className = 'bg-emerald-500 rounded-xl font-medium p-2 outline-none  m-5 p-2'> Log in </button>
+            <button className = 'bg-emerald-500 rounded-xl font-medium outline-none  m-5 p-2'> Log in </button>
            </form>
        
         </div>
