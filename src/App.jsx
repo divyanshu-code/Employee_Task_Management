@@ -3,7 +3,7 @@ import Empolyee from './components/dashboard/Empolyee'
 import Login from './components/auth/Login'
 import { Master } from './components/dashboard/Master'
 import { proper } from './context/TaskProvider'
-import { getLocalstorage, setLocalstorage } from './utils/LocalStorage'
+import { getLocalstorage, setLocalstorage } from './utils/localStorage'
 
 
 const App = () => {
