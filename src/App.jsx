@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import Empolyee from './components/dashboard/Empolyee'
+import Employee from './components/dashboard/Employee'
 import Login from './components/auth/Login'
 import { Master } from './components/dashboard/Master'
 import { proper } from './context/TaskProvider'
@@ -47,12 +47,13 @@ const App = () => {
     }
   }
 
+  
 
   return (
     <>
 
       {!user ? <Login handle={handle} /> : ''}
-      {user == 'admin' ? <Master changeuser={setuser} /> : (user == 'employees' ? <Empolyee changeuser={setuser} data={loggedin} /> : null)}
+      {user == 'admin' ? <Master changeuser={setuser} /> : (user == 'employees' ? <Employee changeuser={setuser} data={loggedin} /> : null)}
 
       {/* <Empolyee />  */}
 

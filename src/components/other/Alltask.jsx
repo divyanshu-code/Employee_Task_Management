@@ -16,7 +16,7 @@ const AllTask = () => {
         <h5 className='w-1/5  '>Failed</h5>
       </div>
 
-      <div className=''>
+      <div >
         {userdata.map((e,idx) => {
 
           return <div key={idx} className=' border-2 border-emerald-500 m-5 flex  p-3  rounded  font-semibold justify-between '>

@@ -17,3 +17,4 @@ export const Master = (props) => {
     )
 }
 
+export default Master

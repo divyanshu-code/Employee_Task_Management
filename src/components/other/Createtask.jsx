@@ -19,10 +19,9 @@ const CreateTask = () => {
 
         setnewtask({ title, description, category, date, active: false, new_task: true, completed_task: false, failed: false })
 
-
         const data = userdata
 
-        data.forEach(function (e) {
+        data.forEach(function(e){
 
             if (assignto == e.name) {
 
