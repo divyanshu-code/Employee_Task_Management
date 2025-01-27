@@ -3,7 +3,7 @@ const employees = [
     "id": 1,
     "name": "Alice Johnson",
     "email": "alice.johnson@example.com",
-    "password": "alice1234",
+    "password": "123",
     "tasks": [
       {
         "title": "Design Homepage",
@@ -47,7 +47,7 @@ const employees = [
     "id": 2,
     "name": "Brian Miller",
     "email": "brian.miller@example.com",
-    "password": "brian5678",
+    "password": "123",
     "tasks": [
       {
         "title": "Bug Fix #342",
@@ -91,7 +91,7 @@ const employees = [
     "id": 3,
     "name": "Clara Davis",
     "email": "clara.davis@example.com",
-    "password": "clara9876",
+    "password": "123",
     "tasks": [
       {
         "title": "Campaign Plan",
@@ -135,7 +135,7 @@ const employees = [
     "id": 4,
     "name": "David Smith",
     "email": "david.smith@example.com",
-    "password": "david4321",
+    "password": "123",
     "tasks": [
       {
         "title": "Inventory Check",
@@ -179,7 +179,7 @@ const employees = [
     "id": 5,
     "name": "Emma Brown",
     "email": "emma.brown@example.com",
-    "password": "emma2468",
+    "password": "123",
     "tasks": [
       {
         "title": "System Update",

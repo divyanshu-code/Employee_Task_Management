@@ -7,7 +7,7 @@ const Employee = (props) => {
   
   return (
     <>
-     <div className='p-20 '>
+     <div className='p-20  bg-gray-800'>
      
      
      <Header hero={props.changeuser} data={props.data}/>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AcceptTask = ({data}) => {
+const AcceptTask = ({data , onComplete, onFail}) => {
   return (
     <div className='flex-shrink-0 h-72 w-80 bg-orange-400  rounded-xl ml-5 p-2'>
 
@@ -14,8 +14,8 @@ const AcceptTask = ({data}) => {
     <p className='ml-5 mt-2'>{data.description}</p>
 
     <div className='m-4 flex justify-between inline-center mt-20 '>
-        <button className='bg-blue-500 p-1 rounded  font-semibold'> complete </button>
-        <button className='bg-red-500 p-1 rounded font-semibold'> failed</button>
+        <button onClick={() => onComplete(data.id)} className='bg-blue-500 p-1 rounded  font-semibold'> complete </button>
+        <button onClick={() => onFail(data.id)} className='bg-red-500 p-1 rounded font-semibold'> failed</button>
     </div>
 </div>
   )

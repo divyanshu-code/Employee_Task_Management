@@ -5,7 +5,7 @@
 
 body{
 
-     background: url('src/assets/image.png') no-repeat ;
+    background-color: rgb(113, 109, 109);
     
     
 }
@@ -18,11 +18,6 @@ body{
 #alltask::-webkit-scrollbar{
       
      display: none;
-}
-
-#hlo{
-      
-     box-shadow: 0 0 10px rgba(0, 0, 0, .5)
 }
 
 #one{

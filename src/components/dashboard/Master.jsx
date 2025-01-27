@@ -7,7 +7,7 @@ export const Master = (props) => {
     return (
         <>
 
-            <div className='w-full h-screen p-10'>
+            <div className='w-full h-full p-10 bg-gray-700'>
 
                 <Header hero={props.changeuser} />
                 <CreateTask />

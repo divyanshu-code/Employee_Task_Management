@@ -21,7 +21,7 @@ const CreateTask = () => {
 
         const data = userdata
 
-        data.forEach(function(e){
+        data.forEach(function (e) {
 
             if (assignto == e.name) {
 
@@ -54,7 +54,7 @@ const CreateTask = () => {
                         <h1> Task Title </h1>
                         <input value={title} onChange={(e) => {
                             settitle(e.target.value);
-                        }} type="text" placeholder='Make a UI design ' className='p-1 rounded  bg-gray-900 border text-xs w-96 mt-1 ' id='one' />
+                        }} type="text" placeholder='Make a UI design ' className='p-1 rounded  bg-gray-700/50 border text-xs w-96 mt-1 ' id='one' />
                     </div>
 
 
@@ -62,21 +62,30 @@ const CreateTask = () => {
                         <h1 >Date</h1>
                         <input value={date} onChange={(e) => {
                             setdate(e.target.value);
-                        }} type="date" className='p-1 rounded  bg-gray-800 border text-xs w-96  mt-1  ' id='one' />
+                        }} type="date" className='p-1 rounded  bg-gray-700/50 border text-xs w-96  mt-1  ' id='one' />
                     </div>
 
                     <div className='mt-5'>
                         <h1>Assign to</h1>
-                        <input value={assignto} onChange={(e) => {
+
+                        <select class=" p-1 rounded  bg-gray-700/50 border text-xs w-96  mt-1 "  value={assignto} onChange={(e) => {
                             setassignto(e.target.value);
-                        }} type="text" className='p-1 rounded  bg-gray-900 border text-xs w-96  mt-1' id='one' placeholder='Employee name' />
+                        }}>
+                            <option value="">Select employee</option>
+                            <option value="Rahul">Alice Johnson</option>
+                            <option value="Priya">Brian Miller</option>
+                            <option value="Amit">Clara Davis</option>
+                            <option value="Ananya">David Smith</option>
+                            <option value="Arjun">Emma Brown</option>
+                            </select>
+
                     </div>
 
                     <div className='mt-5'>
                         <h1>Category</h1>
                         <input value={category} onChange={(e) => {
                             setcategory(e.target.value);
-                        }} type="text" placeholder='Design , Development etc ' className='p-1 rounded  bg-gray-900 border text-xs w-96  mt-1' id='one' />
+                        }} type="text" placeholder='Design , Development etc ' className='p-1 rounded  bg-gray-700/50 border text-xs w-96  mt-1' id='one' />
                     </div>
 
                 </div>
@@ -86,7 +95,7 @@ const CreateTask = () => {
                     <h1>Description</h1>
                     <textarea value={description} onChange={(e) => {
                         setdescription(e.target.value);
-                    }} name="" id="one" className=' rounded w-full outline-none h-52 resize-none  bg-gray-900 border '></textarea>
+                    }} name="" id="one" className=' rounded w-full outline-none h-52 resize-none  bg-gray-700/50 border '></textarea>
 
                     <button className='border-emerald-500 w-full bg-emerald-500 rounded h-10 mt-2'> Create Task </button>
                 </div>

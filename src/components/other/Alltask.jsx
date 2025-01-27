@@ -8,6 +8,9 @@ const AllTask = () => {
 
   return (
     <div className='bg-[#1c1c1c]  h-[72%] ml-10 mr-10 p-3 mt-5' id='alltask'>
+      <div className='text-gray-500 w-full h-20 border-b border-gray-700 p-6'>
+        <h1>Track your team's task progress</h1>
+      </div>
       <div className='bg-red-400 m-5 flex  border p-3  rounded  font-semibold justify-between '>
         <h1 className='w-1/5 ml-5'>Empolyee Name</h1>
         <h2 className='w-1/5  '>New Task </h2>
